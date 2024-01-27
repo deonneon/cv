@@ -20,82 +20,98 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Danh (Deon) Tran",
-  initials: "DT",
-  location: "Kansas City, MO, USA",
-  locationLink: "https://www.google.com/maps/place/Kansas+City,+MO",
+  name: "Bartosz Jarocki",
+  initials: "BJ",
+  location: "Wrocław, Poland, CET",
+  locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Innovative Mechanical Engineer with a strong background in defense R&D, specializing in complex engineering challenges.",
+    "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
-    "Highly skilled in simplifying and deconstructing complex problems to deliver custom-built solutions in defense and aerospace engineering. Expert in CAD, FEA, and programming, with an emphasis on Python and data analytics. Known for extreme thoroughness and low error margin in high-stakes environments.",
-  avatarUrl:
-    "https://media.licdn.com/dms/image/C5603AQGhknyX7DxEFA/profile-displayphoto-shrink_200_200/0/1517382519042?e=1711584000&v=beta&t=wyBVui0m6JOo42_gC4Fvyu-gpr4jw8tGxDpvSBunCuY", // Replace with your actual avatar URL if desired
-  personalWebsiteUrl: "https://github.com/deonneon", // Replace with your actual personal website URL if desired
+    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "danh.tran@mail.com",
-    tel: "240-888-9457",
+    email: "bartosz.jarocki@hey.com",
+    tel: "+48530213401",
     social: [
-      // Add your actual social links and icons
       {
         name: "GitHub",
-        url: "https://github.com/deonneon",
+        url: "https://github.com/BartoszJarocki",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/mrdanh",
+        url: "https://www.linkedin.com/in/bjarocki/",
         icon: LinkedInIcon,
+      },
+      {
+        name: "X",
+        url: "https://x.com/BartoszJarocki",
+        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "University of Maryland College Park",
-      degree: "B.S. Mechanical Engineering",
-      start: "2010",
-      end: "2014",
-    },
-    {
-      school: "Korea University, South Korea",
-      degree: "Semester Abroad",
-      start: "2013",
-      end: "2013",
+      school: "Wrocław University of Technology",
+      degree: "Bachelor's Degree in Control systems engineering and Robotics",
+      start: "2007",
+      end: "2010",
     },
   ],
   work: [
-    // Add your work experience here with the correct logos if available
     {
-      company: "U.S. National Security Campus, Department of Energy",
-      link: "https://www.energy.gov",
-      badges: ["Q Clearance"],
-      title: "Mechanical Engineer III",
-      // logo: USNationalSecurityCampusLogo,
-      start: "2019",
-      end: "Present",
+      company: "Parabol",
+      link: "https://parabol.co",
+      badges: ["Remote"],
+      title: "Senior Full Stack Developer",
+      logo: ParabolLogo,
+      start: "2021",
+      end: "2024",
       description:
-        "Providing design and manufacturing solutions for nuclear weapons production. Spearheading the welding advanced simulation and analysis domain.",
+        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     },
     {
-      company: "Naval Surface Warfare Center, Carderock Division",
-      link: "https://www.navsea.navy.mil",
-      badges: ["Secret Clearance"],
-      title: "Structural Certification Engineer",
-      // logo: NavalSurfaceWarfareCenterLogo,
-      start: "2016",
-      end: "2019",
+      company: "Clevertech",
+      link: "https://clevertech.biz",
+      badges: ["Remote"],
+      title: "Lead Android Developer → Full Stack Developer",
+      logo: ClevertechLogo,
+      start: "2015",
+      end: "2021",
       description:
-        "Certified structural integrity of submarine configurations using Navy and NASA-STD-5020 Standard requirements.",
+        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
     },
-    // Add other work experiences similarly
+    {
+      company: "Jojo Mobile",
+      link: "https://bsgroup.eu/",
+      badges: [],
+      title: "Android Developer → Lead Android Developer",
+      logo: JojoMobileLogo,
+      start: "2012",
+      end: "2015",
+      description:
+        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+    },
+    {
+      company: "Nokia Siemens Networks",
+      link: "https://www.nokia.com",
+      badges: [],
+      title: "C/C++ Developer",
+      logo: NSNLogo,
+      start: "2010",
+      end: "2012",
+      description: "Creating and testing software for LTE base stations",
+    },
   ],
   skills: [
-    "Mechanical Engineering",
-    "Computer Aided Design (CAD)",
-    "Finite Element Analysis (FEA)",
-    "Programming: Python, Matlab, Java, Javascript",
-    "Manufacturing Techniques",
-    "Data Analytics",
-    // Add other relevant skills
+    "JavaScript",
+    "TypeScript",
+    "React/Next.js/Remix",
+    "Node.js",
+    "GraphQL",
+    "Relay",
+    "WebRTC",
   ],
   projects: [
     {
