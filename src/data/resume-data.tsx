@@ -192,5 +192,16 @@ export const RESUME_DATA = {
         href: "https://earnings-hub.vercel.app/",
       },
     },
+    {
+      title: "Terminal Journal App",
+      techStack: ["Side Project", "Bash", "Tmux", "Journal", "linux"],
+      description:
+        "A simple, terminal-based journaling application leveraging Tmux.",
+      logo: JarockiMeLogo,
+      link: {
+        label: "linux-journal",
+        href: "https://github.com/deonneon/tmux_journal_app",
+      },
+    },
   ],
 } as const;
