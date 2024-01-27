@@ -72,7 +72,7 @@ export const RESUME_DATA = {
       start: "2022",
       end: "Present",
       description:
-        "Providing design and manufacturing solutions for nuclear weapons production. Spearheading the welding advanced simulation and analysis domain.",
+        "Perform ML modeling for cutting-edge manufacturing processes. Utilized HPCs, Cloudera Hadoop Big Data clusters, and Dataiku to perform data collection and analysis.",
     },
     {
       company: "",
@@ -83,11 +83,11 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2022",
       description:
-        "Providing design and manufacturing solutions for nuclear weapons production. Spearheading the welding advanced simulation and analysis domain.",
+        "Provided design and manufacturing solutions for nuclear weapons production. Perform predictive modeling analytics and simulation support.",
     },
     {
       company: "Naval Surface Warfare Center, Carderock Division",
-      link: "https://www.navsea.navy.mil",
+      link: "https://www.navsea.navy.mil/Home/Warfare-Centers/NSWC-Carderock/",
       badges: ["Secret Clearance"],
       title: "Mechanical Simulation Engineer",
       // logo: NavalSurfaceWarfareCenterLogo,
@@ -96,7 +96,26 @@ export const RESUME_DATA = {
       description:
         "Certified robustness of design by performing predictive data analytics. Develop simulation experiment of submarine configurations. Perform large numerical computations on high performance computing clusters. (HPC)",
     },
-    // Add other work experiences similarly
+    {
+      company: "Sikorsky, Lockheed Martin",
+      link: "https://www.nasa.gov",
+      badges: [],
+      title: "Engineer Co-op",
+      // logo: NavalSurfaceWarfareCenterLogo,
+      start: "2012",
+      end: "2012",
+      description: "",
+    },
+    {
+      company: "NASA",
+      link: "https://www.nasa.gov",
+      badges: [],
+      title: "Engineer Intern",
+      // logo: NavalSurfaceWarfareCenterLogo,
+      start: "2009",
+      end: "2010",
+      description: "",
+    },
   ],
   skills: [
     "Simulations",
@@ -112,164 +131,66 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
+      title: "Teachers Worksheet Generator",
+      techStack: ["Side Project", "Next.js", "Netlify", "OpenAI"],
+      description: "Generates practice problem worksheets for teachers",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "teacherprep.com",
+        href: "https://teacherprep.netlify.app/",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
+      title: "Daily Macro Tracker",
+      techStack: ["Side Project", "Next.js", "OpenAI"],
+      description: "Smart Journal for Keeping Track of Daily Nutritional Goals",
       logo: BarepapersLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "daily-macro-tracker",
+        href: "https://shimmering-figolla-53e06a.netlify.app",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
+      title: "Clicker Reaction Game",
+      techStack: ["Side Project", "Game", "React"],
+      description:
+        "Reaction based clicker game designed to measure and train reaction skills.",
       logo: YearProgressLogo,
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "clickerreaction",
+        href: "https://deonneon.github.io/ClickerReaction/",
       },
     },
     {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+      title: "U.S. States Trivial",
+      techStack: ["Side Project", "Design", "React", "Netlify"],
+      description: "Design project for trivial web app",
+      logo: ConsultlyLogo,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "state-guessing-game",
+        href: "https://state-guessing-game.netlify.app",
       },
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+      title: "Instagram Caption Generator",
+      techStack: ["Side Project", "React", "OpenAI", "Netlify"],
+      description: "Web app to generate high engagement Instagram captions.",
+      logo: MonitoLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "caption-generator",
+        href: "https://caption-generator-mu.vercel.app",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Stock Earnings Hub",
+      techStack: ["Side Project", "Next.js", "Stocks"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+        "Design project for a central earnings dashboard. Built with Next.js and Vercel",
+      logo: JarockiMeLogo,
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "earnings-hub",
+        href: "https://earnings-hub.vercel.app/",
       },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
