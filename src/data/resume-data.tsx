@@ -57,21 +57,31 @@ export const RESUME_DATA = {
     },
     {
       school: "Korea University, South Korea",
-      degree: "Semester Abroad",
+      degree: "Mechanical Engineering, Semester Abroad",
       start: "2013",
       end: "2013",
     },
   ],
   work: [
-    // Add your work experience here with the correct logos if available
     {
-      company: "U.S. National Security Campus, Department of Energy",
-      link: "https://www.energy.gov",
+      company: "U.S. National Security Campus, Honeywell, DOE",
+      link: "https://kcnsc.doe.gov",
       badges: ["Q Clearance"],
+      title: "Senior Data Scientist",
+      // logo: USNationalSecurityCampusLogo,
+      start: "2022",
+      end: "Present",
+      description:
+        "Providing design and manufacturing solutions for nuclear weapons production. Spearheading the welding advanced simulation and analysis domain.",
+    },
+    {
+      company: "",
+      link: "https://kcnsc.doe.gov",
+      badges: [],
       title: "Mechanical Engineer III",
       // logo: USNationalSecurityCampusLogo,
       start: "2019",
-      end: "Present",
+      end: "2022",
       description:
         "Providing design and manufacturing solutions for nuclear weapons production. Spearheading the welding advanced simulation and analysis domain.",
     },
@@ -79,23 +89,26 @@ export const RESUME_DATA = {
       company: "Naval Surface Warfare Center, Carderock Division",
       link: "https://www.navsea.navy.mil",
       badges: ["Secret Clearance"],
-      title: "Structural Certification Engineer",
+      title: "Mechanical Simulation Engineer",
       // logo: NavalSurfaceWarfareCenterLogo,
-      start: "2016",
+      start: "2015",
       end: "2019",
       description:
-        "Certified structural integrity of submarine configurations using Navy and NASA-STD-5020 Standard requirements.",
+        "Certified robustness of design by performing predictive data analytics. Develop simulation experiment of submarine configurations. Perform large numerical computations on high performance computing clusters. (HPC)",
     },
     // Add other work experiences similarly
   ],
   skills: [
-    "Mechanical Engineering",
-    "Computer Aided Design (CAD)",
-    "Finite Element Analysis (FEA)",
-    "Programming: Python, Matlab, Java, Javascript",
+    "Simulations",
+    "Consulting",
+    "Programming: Python, Bash, Javascript, React",
     "Manufacturing Techniques",
+    "Experimental Data Collection",
     "Data Analytics",
-    // Add other relevant skills
+    "Full Stack App Development",
+    "Machine Learning",
+    "LLMs",
+    "Big Data",
   ],
   projects: [
     {
