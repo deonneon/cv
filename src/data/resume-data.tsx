@@ -162,9 +162,9 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "U.S. States Trivial",
+      title: "U.S. States Trivia",
       techStack: ["Side Project", "Design", "React", "Netlify"],
-      description: "Design project for trivial web app",
+      description: "Design project for trivia web app",
       logo: ConsultlyLogo,
       link: {
         label: "state-guessing-game",
