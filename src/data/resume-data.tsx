@@ -79,7 +79,7 @@ export const RESUME_DATA = {
         "Provided design and manufacturing solutions for nuclear weapons production. Perform predictive modeling analytics and simulation support.",
     },
     {
-      company: "Naval Surface Warfare Center, Carderock Division",
+      company: "Naval Surface Warfare Center, United States Navy, DOD",
       link: "https://www.navsea.navy.mil/Home/Warfare-Centers/NSWC-Carderock/",
       badges: ["Secret Clearance"],
       title: "Mechanical Simulation Engineer",
@@ -166,16 +166,16 @@ export const RESUME_DATA = {
         href: "https://state-guessing-game.netlify.app",
       },
     },
-    {
-      title: "Instagram Caption Generator",
-      techStack: ["Side Project", "React", "OpenAI", "Netlify"],
-      description: "Web app to generate high engagement Instagram captions.",
-      logo: MonitoLogo,
-      link: {
-        label: "caption-generator",
-        href: "https://caption-generator-mu.vercel.app",
-      },
-    },
+    // {
+    //   title: "Instagram Caption Generator",
+    //   techStack: ["Side Project", "React", "OpenAI", "Netlify"],
+    //   description: "Web app to generate high engagement Instagram captions.",
+    //   logo: MonitoLogo,
+    //   link: {
+    //     label: "caption-generator",
+    //     href: "https://caption-generator-mu.vercel.app",
+    //   },
+    // },
     {
       title: "Daily Macro Tracker",
       techStack: ["Side Project", "Next.js", "OpenAI"],
