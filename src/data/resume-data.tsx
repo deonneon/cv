@@ -24,7 +24,7 @@ export const RESUME_DATA = {
   initials: "DT",
   location: "Kansas City, MO, USA",
   locationLink: "https://www.google.com/maps/place/Kansas+City,+MO",
-  about: "Curious data scientist with an eye on design and automation.",
+  about: "Curious data scientist with an eye on UX/DX design and automation.",
   summary:
     "Highly skilled in simplifying and deconstructing complex problems to deliver custom-built solutions in defense and aerospace engineering. Expert in simulations and data analytics. Huge focus on automation. Known for extreme thoroughness and low error margin in high-stakes environments.",
   avatarUrl:
@@ -71,12 +71,12 @@ export const RESUME_DATA = {
       start: "2022",
       end: "Present",
       description:
-        "Perform ML modeling for cutting-edge manufacturing processes. Utilized HPCs, Cloudera Hadoop Big Data clusters, and Dataiku to perform data collection and analysis.",
+        "Led advanced ML modeling initiatives for innovative manufacturing processes, leveraging High-Performance Computing (HPC) systems, Cloudera Hadoop Big Data clusters, and Dataiku for robust data collection and in-depth analysis. Head of the Automation Team.",
       titleFormer: "Mechanical Engineer III",
       startFormer: "2019",
       endFormer: "2022",
       descriptionFormer:
-        "Provided design and manufacturing solutions for nuclear weapons production. Perform predictive modeling analytics and simulation support.",
+        "Provided data-driven design and manufacturing strategies for nuclear weapons production, focusing on predictive modeling and data science-supported simulations.",
     },
     {
       company: "Naval Surface Warfare Center, United States Navy, DOD",
@@ -87,7 +87,7 @@ export const RESUME_DATA = {
       start: "2015",
       end: "2019",
       description:
-        "Certified robustness of design by performing predictive data analytics. Develop simulation experiment of submarine configurations. Perform large numerical computations on high performance computing clusters. (HPC)",
+        "Certified design robustness through predictive data analytics; engineered simulation experiments for submarine configurations; and conducted large-scale numerical computations on High Performance Computing (HPC) clusters.",
       titleFormer: "",
       startFormer: "",
       endFormer: "",
