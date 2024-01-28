@@ -24,10 +24,9 @@ export const RESUME_DATA = {
   initials: "DT",
   location: "Kansas City, MO, USA",
   locationLink: "https://www.google.com/maps/place/Kansas+City,+MO",
-  about:
-    "Curious data scientist with a strong background in defense R&D, specializing in complex engineering challenges.",
+  about: "Curious data scientist with an eye on design and automation.",
   summary:
-    "Highly skilled in simplifying and deconstructing complex problems to deliver custom-built solutions in defense and aerospace engineering. Expert in simulations, and programming, with an emphasis on Python and data analytics. Known for extreme thoroughness and low error margin in high-stakes environments.",
+    "Highly skilled in simplifying and deconstructing complex problems to deliver custom-built solutions in defense and aerospace engineering. Expert in simulations and data analytics. Huge focus on automation. Known for extreme thoroughness and low error margin in high-stakes environments.",
   avatarUrl:
     "https://media.licdn.com/dms/image/C5603AQGhknyX7DxEFA/profile-displayphoto-shrink_200_200/0/1517382519042?e=1711584000&v=beta&t=wyBVui0m6JOo42_gC4Fvyu-gpr4jw8tGxDpvSBunCuY", // Replace with your actual avatar URL if desired
   personalWebsiteUrl: "https://github.com/deonneon", // Replace with your actual personal website URL if desired
@@ -73,16 +72,10 @@ export const RESUME_DATA = {
       end: "Present",
       description:
         "Perform ML modeling for cutting-edge manufacturing processes. Utilized HPCs, Cloudera Hadoop Big Data clusters, and Dataiku to perform data collection and analysis.",
-    },
-    {
-      company: "",
-      link: "https://kcnsc.doe.gov",
-      badges: [],
-      title: "Mechanical Engineer III",
-      // logo: USNationalSecurityCampusLogo,
-      start: "2019",
-      end: "2022",
-      description:
+      titleFormer: "Mechanical Engineer III",
+      startFormer: "2019",
+      endFormer: "2022",
+      descriptionFormer:
         "Provided design and manufacturing solutions for nuclear weapons production. Perform predictive modeling analytics and simulation support.",
     },
     {
@@ -95,6 +88,10 @@ export const RESUME_DATA = {
       end: "2019",
       description:
         "Certified robustness of design by performing predictive data analytics. Develop simulation experiment of submarine configurations. Perform large numerical computations on high performance computing clusters. (HPC)",
+      titleFormer: "",
+      startFormer: "",
+      endFormer: "",
+      descriptionFormer: "",
     },
     {
       company: "Sikorsky, Lockheed Martin",
@@ -105,6 +102,10 @@ export const RESUME_DATA = {
       start: "2012",
       end: "2012",
       description: "",
+      titleFormer: "",
+      startFormer: "",
+      endFormer: "",
+      descriptionFormer: "",
     },
     {
       company: "NASA",
@@ -115,6 +116,10 @@ export const RESUME_DATA = {
       start: "2009",
       end: "2010",
       description: "",
+      titleFormer: "",
+      startFormer: "",
+      endFormer: "",
+      descriptionFormer: "",
     },
   ],
   skills: [

@@ -134,6 +134,27 @@ export default function Page() {
                 <CardContent className="mt-2 text-xs">
                   {work.description}
                 </CardContent>
+                {/* Conditional rendering for former job details */}
+                {work.titleFormer ||
+                work.startFormer ||
+                work.endFormer ||
+                work.descriptionFormer ? (
+                  <>
+                    <CardHeader>
+                      <div className="mt-2 flex items-center justify-between gap-x-2 text-base">
+                        <h4 className="inline-flex items-center justify-center gap-x-1 font-mono text-sm leading-none">
+                          {work.titleFormer}
+                        </h4>
+                        <div className="text-sm tabular-nums text-gray-500">
+                          {work.startFormer} - {work.endFormer}
+                        </div>
+                      </div>
+                    </CardHeader>
+                    <CardContent className="mt-2 text-xs">
+                      {work.descriptionFormer}
+                    </CardContent>
+                  </>
+                ) : null}
               </Card>
             );
           })}
