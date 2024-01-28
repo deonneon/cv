@@ -141,16 +141,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Daily Macro Tracker",
-      techStack: ["Side Project", "Next.js", "OpenAI"],
-      description: "Smart Journal for Keeping Track of Daily Nutritional Goals",
-      logo: BarepapersLogo,
-      link: {
-        label: "daily-macro-tracker",
-        href: "https://shimmering-figolla-53e06a.netlify.app",
-      },
-    },
-    {
       title: "Clicker Reaction Game",
       techStack: ["Side Project", "Game", "React"],
       description:
@@ -179,6 +169,16 @@ export const RESUME_DATA = {
       link: {
         label: "caption-generator",
         href: "https://caption-generator-mu.vercel.app",
+      },
+    },
+    {
+      title: "Daily Macro Tracker",
+      techStack: ["Side Project", "Next.js", "OpenAI"],
+      description: "Smart Journal for Keeping Track of Daily Nutritional Goals",
+      logo: BarepapersLogo,
+      link: {
+        label: "daily-macro-tracker",
+        href: "https://shimmering-figolla-53e06a.netlify.app",
       },
     },
     {
