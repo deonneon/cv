@@ -210,7 +210,7 @@ export const RESUME_DATA = {
     // },
     {
       title: "Daily Macro Tracker",
-      techStack: ["Side Project", "Next.js", "OpenAI"],
+      techStack: ["Side Project", "React", "MySQL", "OpenAI"],
       description: "Smart Journal for Keeping Track of Daily Nutritional Goals",
       logo: BarepapersLogo,
       link: {
@@ -220,7 +220,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Stock Earnings Hub",
-      techStack: ["Side Project", "Next.js", "Stocks"],
+      techStack: ["Side Project", "Next.js", "Stocks", "Front-End Only"],
       description:
         "Design project for a central earnings dashboard. Built with Next.js and Vercel",
       logo: JarockiMeLogo,
