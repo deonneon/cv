@@ -122,6 +122,38 @@ export const RESUME_DATA = {
       descriptionFormer: "",
     },
   ],
+  academic_work: [
+    {
+      company: "Alfred Gessow Rotorcraft Center, UMCP",
+      link: "http://www.agrc.umd.edu/",
+      badges: [],
+      title: "Research Asssitant",
+      // logo: USNationalSecurityCampusLogo,
+      start: "2013",
+      end: "2014",
+      description:
+        "Full lifecycle R&D from computer modeling to wind tunnel testing of functional scaled model",
+      titleFormer: "",
+      startFormer: "",
+      endFormer: "",
+      descriptionFormer: "",
+    },
+    {
+      company: "Gamera Human Powered Helicopter, UMCP",
+      link: "http://www.agrc.umd.edu/",
+      badges: [],
+      title: "Research Assistant and Pilot",
+      // logo: USNationalSecurityCampusLogo,
+      start: "2013",
+      end: "2014",
+      description:
+        "Developed and fabricated lightweight rotor blades and helicopter structure from composites",
+      titleFormer: "",
+      startFormer: "",
+      endFormer: "",
+      descriptionFormer: "",
+    },
+  ],
   skills: [
     "Simulations",
     "Consulting",
