@@ -125,7 +125,7 @@ export const RESUME_DATA = {
   academic_work: [
     {
       company: "Alfred Gessow Rotorcraft Center, UMCP",
-      link: "http://www.agrc.umd.edu/",
+      link: "https://aero.umd.edu/research/agrc",
       badges: [],
       title: "Research Asssitant",
       // logo: USNationalSecurityCampusLogo,
@@ -140,7 +140,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Gamera Human Powered Helicopter, UMCP",
-      link: "http://www.agrc.umd.edu/",
+      link: "https://aero.umd.edu/research/agrc",
       badges: [],
       title: "Research Assistant and Pilot",
       // logo: USNationalSecurityCampusLogo,
@@ -173,8 +173,8 @@ export const RESUME_DATA = {
       description: "Generates practice problem worksheets for teachers",
       logo: Minimal,
       link: {
-        label: "teacherprep.com",
-        href: "https://teacherprep.netlify.app/",
+        label: "worksheet-prep",
+        href: "https://worksheet-prep.netlify.app/",
       },
     },
     {
