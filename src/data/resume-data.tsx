@@ -169,9 +169,9 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Teachers Worksheet Generator",
-      techStack: ["Side Project", "Next.js", "SaaS", "OpenAI"],
+      techStack: ["Next.js", "SaaS", "OpenAI"],
       description:
-        "Generates practice problem worksheets for teachers. Best on Desktop.",
+        "Generates practice problem worksheets for teachers. Full experience on Desktop.",
       logo: Minimal,
       link: {
         label: "worksheet-prep",
@@ -180,7 +180,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Clicker Reaction Game",
-      techStack: ["Side Project", "Game", "React"],
+      techStack: ["Game", "React"],
       description:
         "Reaction based clicker game designed to measure and train reaction skills.",
       logo: YearProgressLogo,
@@ -191,7 +191,7 @@ export const RESUME_DATA = {
     },
     {
       title: "U.S. States Trivia",
-      techStack: ["Side Project", "Design", "React", "Netlify"],
+      techStack: ["Design", "React", "Netlify"],
       description: "Design project for trivia web app",
       logo: ConsultlyLogo,
       link: {
@@ -201,7 +201,7 @@ export const RESUME_DATA = {
     },
     // {
     //   title: "Instagram Caption Generator",
-    //   techStack: ["Side Project", "React", "OpenAI", "Netlify"],
+    //   techStack: ["React", "OpenAI", "Netlify"],
     //   description: "Web app to generate high engagement Instagram captions.",
     //   logo: MonitoLogo,
     //   link: {
@@ -211,7 +211,7 @@ export const RESUME_DATA = {
     // },
     {
       title: "Daily Macro Tracker",
-      techStack: ["Side Project", "React", "MySQL", "OpenAI"],
+      techStack: ["React", "MySQL", "OpenAI"],
       description: "Smart Journal for Keeping Track of Daily Nutritional Goals",
       logo: BarepapersLogo,
       link: {
@@ -221,7 +221,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Stock Earnings Hub",
-      techStack: ["Side Project", "Next.js", "Stocks", "Front-End Only"],
+      techStack: ["Next.js", "Stocks", "Front-End Only"],
       description:
         "Design project for a central earnings dashboard. Built with Next.js and Vercel",
       logo: JarockiMeLogo,
@@ -232,7 +232,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Terminal Journal App",
-      techStack: ["Side Project", "Bash", "Tmux", "Journal", "linux"],
+      techStack: ["Bash", "Tmux", "Journal", "linux"],
       description:
         "A simple, terminal-based journaling application leveraging Tmux.",
       logo: JarockiMeLogo,
