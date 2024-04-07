@@ -168,10 +168,10 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "(Web-Only) Teachers Worksheet Generator",
-      techStack: ["Side Project", "Next.js", "Netlify", "OpenAI"],
+      title: "Teachers Worksheet Generator",
+      techStack: ["Side Project", "Next.js", "SaaS", "OpenAI"],
       description:
-        "Generates practice problem worksheets for teachers. Not designed for mobile.",
+        "Generates practice problem worksheets for teachers. Best on Desktop.",
       logo: Minimal,
       link: {
         label: "worksheet-prep",
