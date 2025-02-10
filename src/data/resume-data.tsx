@@ -24,12 +24,12 @@ export const RESUME_DATA = {
   initials: "DT",
   location: "Kansas City, MO, USA",
   locationLink: "https://www.google.com/maps/place/Kansas+City,+MO",
-  about: "Curious data scientist with an eye on UX/DX design and automation.",
+  about: "Curious data scientist with an eye on UX/DX design and system automation.",
   summary:
     "Highly skilled in simplifying and deconstructing complex problems to deliver custom-built solutions in defense and aerospace engineering. Expert in simulations and data analytics. Huge focus on automation. Known for extreme thoroughness and low error margin in high-stakes environments.",
   avatarUrl:
     "https://media.licdn.com/dms/image/C5603AQGhknyX7DxEFA/profile-displayphoto-shrink_200_200/0/1517382519042?e=1711584000&v=beta&t=wyBVui0m6JOo42_gC4Fvyu-gpr4jw8tGxDpvSBunCuY", // Replace with your actual avatar URL if desired
-  personalWebsiteUrl: "https://github.com/deonneon", // Replace with your actual personal website URL if desired
+  personalWebsiteUrl: "https://github.com/deonneon", 
   contact: {
     email: "danh.tran@mail.com",
     tel: "240-888-9457",
@@ -66,12 +66,12 @@ export const RESUME_DATA = {
       company: "U.S. National Security Campus, Honeywell, DOE",
       link: "https://kcnsc.doe.gov",
       badges: ["Q Clearance"],
-      title: "Senior Data Scientist",
+      title: "Lead Data Scientist",
       // logo: USNationalSecurityCampusLogo,
       start: "2022",
       end: "Present",
       description:
-        "Led advanced ML modeling initiatives for innovative manufacturing processes, leveraging High-Performance Computing (HPC) systems, Cloudera Hadoop Big Data clusters, and Dataiku for robust data collection and in-depth analysis. Head of the Automation Team.",
+        "Led advanced ML modeling and data engineering initiatives for innovative manufacturing processes, leveraging High-Performance Computing (HPC) systems, Cloudera Hadoop Big Data clusters, and Dataiku for robust data collection and in-depth analysis. Head of the Automation Team.",
       titleFormer: "Mechanical Engineer III",
       startFormer: "2019",
       endFormer: "2022",
@@ -157,9 +157,9 @@ export const RESUME_DATA = {
   skills: [
     "Simulations",
     "Consulting",
-    "Programming: Python, Bash, Javascript, React",
-    "Manufacturing Techniques",
-    "Experimental Data Collection",
+    "Programming: Python, Bash, Javascript, React, Spark",
+    "Genetic AI",
+    "Data Engineering",
     "Data Analytics",
     "Full Stack App Development",
     "Machine Learning",
@@ -179,14 +179,25 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Clicker Reaction Game",
-      techStack: ["Game", "React"],
+      title: "KitSNAP",
+      techStack: ["Vite.js", "Webscrapper", "React"],
       description:
-        "Reaction based clicker game designed to measure and train reaction skills.",
-      logo: YearProgressLogo,
+        "Gear builder for niche hobbies. Lookup and compare repository. ",
+      logo: Minimal,
       link: {
-        label: "clickerreaction",
-        href: "https://deonneon.github.io/ClickerReaction/",
+        label: "kitsnap",
+        href: "https://www.kitsnap.app/",
+      },
+    },
+    {
+      title: "Diagram Mapper",
+      techStack: ["Vite.js", "Webscrapper", "React"],
+      description:
+        "Modern and user-friendly diagram mapper. Heavy on design and UX.",
+      logo: Minimal,
+      link: {
+        label: "diagrammapper",
+        href: "http://diagrammapper.netlify.app",
       },
     },
     {
@@ -197,6 +208,17 @@ export const RESUME_DATA = {
       link: {
         label: "state-guessing-game",
         href: "https://state-guessing-game.netlify.app",
+      },
+    },
+    {
+      title: "Clicker Reaction Game",
+      techStack: ["Game", "React"],
+      description:
+        "Reaction based clicker game designed to measure and train reaction skills.",
+      logo: YearProgressLogo,
+      link: {
+        label: "clickerreaction",
+        href: "https://deonneon.github.io/ClickerReaction/",
       },
     },
     // {
