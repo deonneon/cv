@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Kansas+City,+MO",
   about: "Curious data scientist with an eye on UX/DX design and system automation.",
   summary:
-    "Highly skilled in simplifying and deconstructing complex problems to deliver custom-built solutions in defense and aerospace engineering. Expert in simulations and data analytics. Huge focus on automation. Known for extreme thoroughness and low error margin in high-stakes environments.",
+    "Highly skilled in simplifying and deconstructing complex problems to deliver custom-built solutions in defense engineering. Proficient in all things data - genetic ai, data engineering, and data analytics. Huge focus on system automation. Known for extreme thoroughness.",
   avatarUrl:
     "https://media.licdn.com/dms/image/C5603AQGhknyX7DxEFA/profile-displayphoto-shrink_200_200/0/1517382519042?e=1711584000&v=beta&t=wyBVui0m6JOo42_gC4Fvyu-gpr4jw8tGxDpvSBunCuY", // Replace with your actual avatar URL if desired
   personalWebsiteUrl: "https://github.com/deonneon", 
@@ -175,7 +175,7 @@ export const RESUME_DATA = {
       logo: Minimal,
       link: {
         label: "worksheet-prep",
-        href: "https://worksheet-prep.netlify.app/",
+        href: "https://www.worksheetprep.com",
       },
     },
     {
