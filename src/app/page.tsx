@@ -160,23 +160,23 @@ export default function Page() {
                   </>
                 ) : null}
                 {/* Conditional rendering for second former job details */}
-                {work.titleFormer2 ||
-                work.startFormer2 ||
-                work.endFormer2 ||
-                work.descriptionFormer2 ? (
+                {(work as any).titleFormer2 ||
+                (work as any).startFormer2 ||
+                (work as any).endFormer2 ||
+                (work as any).descriptionFormer2 ? (
                   <>
                     <CardHeader>
                       <div className="mt-2 flex items-center justify-between gap-x-2 text-base">
                         <h4 className="inline-flex items-center justify-center gap-x-1 font-mono text-sm leading-none">
-                          {work.titleFormer2}
+                          {(work as any).titleFormer2}
                         </h4>
                         <div className="text-sm tabular-nums text-gray-500 whitespace-nowrap">
-                          {work.startFormer2} - {work.endFormer2}
+                          {(work as any).startFormer2} - {(work as any).endFormer2}
                         </div>
                       </div>
                     </CardHeader>
                     <CardContent className="mt-2 text-xs">
-                      {work.descriptionFormer2}
+                      {(work as any).descriptionFormer2}
                     </CardContent>
                   </>
                 ) : null}
