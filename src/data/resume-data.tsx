@@ -173,6 +173,17 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Superset Workflow Builder",
+      techStack: ["Vite", "Go", "OpenAI"],
+      description:
+        "Workflow playground that leverages Legolike blocks to build AI-powered workflows.",
+      logo: Minimal,
+      link: {
+        label: "workflow-builder",
+        href: "https://lelounge.vercel.app",
+      },
+    },
+    {
       title: "Teachers Worksheet Generator",
       techStack: ["Next.js", "SaaS", "OpenAI"],
       description:
