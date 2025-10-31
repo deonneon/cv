@@ -24,11 +24,11 @@ export const RESUME_DATA = {
   initials: "DT",
   location: "Kansas City, MO, USA",
   locationLink: "https://www.google.com/maps/place/Kansas+City,+MO",
-  about: "Curious data scientist with an eye on UX/DX design and system automation.",
+  about: "Curious data professional with an eye on UX/DX design and system automation.",
   summary:
     "Highly skilled in simplifying and deconstructing complex problems to deliver custom-built solutions in defense engineering. Proficient in all things data - genetic ai, data engineering, and data analytics. Huge focus on system automation. Known for extreme thoroughness.",
   avatarUrl:
-    "https://media.licdn.com/dms/image/C5603AQGhknyX7DxEFA/profile-displayphoto-shrink_200_200/0/1517382519042?e=1711584000&v=beta&t=wyBVui0m6JOo42_gC4Fvyu-gpr4jw8tGxDpvSBunCuY", // Replace with your actual avatar URL if desired
+    "/self.jpg", 
   personalWebsiteUrl: "https://github.com/deonneon", 
   contact: {
     email: "danh.tran@mail.com",
@@ -63,20 +63,25 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "U.S. National Security Campus, Honeywell, DOE",
+      company: "U.S. National Security Campus, Department of Energy operated by Honeywell",
       link: "https://kcnsc.doe.gov",
-      badges: ["Q Clearance"],
+      badges: ["Q Clearance (Higher than TOP SECRET)"],
       title: "Lead Data Scientist",
       // logo: USNationalSecurityCampusLogo,
-      start: "2022",
-      end: "Present",
+      start: "2024",
+      end: "2025",
       description:
-        "Led advanced ML modeling and data engineering initiatives for innovative manufacturing processes, leveraging High-Performance Computing (HPC) systems, Cloudera Hadoop Big Data clusters, and Dataiku for robust data collection and in-depth analysis. Head of the Automation Team.",
-      titleFormer: "Mechanical Engineer III",
-      startFormer: "2019",
-      endFormer: "2022",
+        "Leading data pipeline modernization effort for manufactured weapon technology, leveraging Cloudera Hadoop stack and Dataiku platform, resulting in improved cross enterprise data ingestion data cataloging, and data quality. Collaborated with engineering and operations teams to design scalable data architectures, aligning technical strategies with organizational digital transformation goals. Lead a team of BI admins driving MicroStrategy platform adoption across the enterprise, enabling data-driven decision making through both traditional data warehouse solutions and advanced big data analytics. Successfully increased user engagement and empowered teams to develop meaningful KPIs through enhanced visualization capabilities.",
+      titleFormer: "Senior Data Scientist",
+      startFormer: "2022",
+      endFormer: "2024",
       descriptionFormer:
-        "Provided data-driven design and manufacturing strategies for nuclear weapons production, focusing on predictive modeling and data science-supported simulations.",
+        "Provided data-driven design and manufacturing strategies for nuclear weapons production, focusing on predictive modeling, statistical methods, and modeling simulations. Founded and lead an engineering automation team; facilitating the adoption of the latest AI and ML solutions while streamlining processes, enhancing software efficiency, and significantly reducing error margins in high stakes environments.",
+      titleFormer2: "Mechanical Engineer III",
+      startFormer2: "2019",
+      endFormer2: "2022",
+      descriptionFormer2:
+        "Provided consultation and timely root cause analysis for unexpected and costly manufacturing challenges in 20+ projects including high-profile internal and client-facing engagements; contributed to bringing in +$50,000 cost saving in first month. Facilitated large-scale projects in a HPC cluster environment, driving significant improvements in design solutions.",
     },
     {
       company: "Naval Surface Warfare Center, United States Navy, DOD",

@@ -126,7 +126,7 @@ export default function Page() {
                         ))}
                       </span>
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
+                    <div className="text-sm tabular-nums text-gray-500 whitespace-nowrap">
                       {work.start} - {work.end}
                     </div>
                   </div>
@@ -149,13 +149,34 @@ export default function Page() {
                         <h4 className="inline-flex items-center justify-center gap-x-1 font-mono text-sm leading-none">
                           {work.titleFormer}
                         </h4>
-                        <div className="text-sm tabular-nums text-gray-500">
+                        <div className="text-sm tabular-nums text-gray-500 whitespace-nowrap">
                           {work.startFormer} - {work.endFormer}
                         </div>
                       </div>
                     </CardHeader>
                     <CardContent className="mt-2 text-xs">
                       {work.descriptionFormer}
+                    </CardContent>
+                  </>
+                ) : null}
+                {/* Conditional rendering for second former job details */}
+                {work.titleFormer2 ||
+                work.startFormer2 ||
+                work.endFormer2 ||
+                work.descriptionFormer2 ? (
+                  <>
+                    <CardHeader>
+                      <div className="mt-2 flex items-center justify-between gap-x-2 text-base">
+                        <h4 className="inline-flex items-center justify-center gap-x-1 font-mono text-sm leading-none">
+                          {work.titleFormer2}
+                        </h4>
+                        <div className="text-sm tabular-nums text-gray-500 whitespace-nowrap">
+                          {work.startFormer2} - {work.endFormer2}
+                        </div>
+                      </div>
+                    </CardHeader>
+                    <CardContent className="mt-2 text-xs">
+                      {work.descriptionFormer2}
                     </CardContent>
                   </>
                 ) : null}
@@ -187,7 +208,7 @@ export default function Page() {
                         ))}
                       </span>
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
+                    <div className="text-sm tabular-nums text-gray-500 whitespace-nowrap">
                       {work.start} - {work.end}
                     </div>
                   </div>
@@ -210,7 +231,7 @@ export default function Page() {
                         <h4 className="inline-flex items-center justify-center gap-x-1 font-mono text-sm leading-none">
                           {work.titleFormer}
                         </h4>
-                        <div className="text-sm tabular-nums text-gray-500">
+                        <div className="text-sm tabular-nums text-gray-500 whitespace-nowrap">
                           {work.startFormer} - {work.endFormer}
                         </div>
                       </div>
