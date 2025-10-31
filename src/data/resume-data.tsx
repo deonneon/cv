@@ -63,7 +63,7 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "U.S. National Security Campus, Department of Energy operated by Honeywell",
+      company: "U.S. National Security Campus, DOE operated by Honeywell",
       link: "https://kcnsc.doe.gov",
       badges: ["Q Clearance (Higher than TOP SECRET)"],
       title: "Lead Data Scientist",
